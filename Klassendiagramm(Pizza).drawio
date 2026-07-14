@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="j5w5G7pp3-HniJGzZ2-B">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Kunde" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Mitarbeiter" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Bestellung" vertex="1">
+          <mxGeometry height="120" width="400" x="320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Pizza" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Lieferung" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Zahlung" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="Person" vertex="1">
+          <mxGeometry height="80" width="240" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-25" edge="1" parent="1" source="a0vY0e-7eQO-K8aS8apc-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.163;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="a0vY0e-7eQO-K8aS8apc-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="160" />
+              <mxPoint x="319" y="160" />
+            </Array>
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="a0vY0e-7eQO-K8aS8apc-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0vY0e-7eQO-K8aS8apc-28" edge="1" parent="1" source="a0vY0e-7eQO-K8aS8apc-20" style="endArrow=classic;html=1;rounded=0;entryX=0.833;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="a0vY0e-7eQO-K8aS8apc-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="160" />
+              <mxPoint x="480" y="160" />
+            </Array>
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
